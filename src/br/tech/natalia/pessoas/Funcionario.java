@@ -34,7 +34,7 @@ public class Funcionario extends Pessoa {
     }
 
     public Double reajustarSalario(double percentual) {
-        return this.salario = this.salario * percentual;
+        return this.salario = this.salario + (this.salario * (percentual/100));
     }
 
     public int tempoDeServico() {
