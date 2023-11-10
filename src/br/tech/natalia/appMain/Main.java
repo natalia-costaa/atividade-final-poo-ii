@@ -47,6 +47,9 @@ public class Main {
         cliente1.setCodigo("C02");
         System.out.println(cliente1.getCodigo());
 
+        System.out.println(cliente1.getNome());
+        cliente1.setNome("Joao Pedro");
+        System.out.println(cliente1.getNome());
 
 
 
