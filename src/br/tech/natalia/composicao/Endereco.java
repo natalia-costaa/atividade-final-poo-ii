@@ -70,6 +70,6 @@ public class Endereco {
     @Override
     public String toString() {
         return " mora na rua " + rua + " de numero " + numero + " com CEP " +
-                cep + " na cidade de " + cidade + " do estado " + estado + " do pais " + pais + ".";
+                cep + " na cidade de " + cidade + " do estado " + estado + " no pais " + pais + ".";
     }
 }
